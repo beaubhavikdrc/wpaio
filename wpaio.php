@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Wordpress All In One
+ * Wordpress All In One sdfdf
  * 
  * Plugin Name: Wordpress All In One
  * Plugin URI:  https://github.com/spiderdunia/wpaio/
