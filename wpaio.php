@@ -2,7 +2,7 @@
 
 /**
  * Wordpress All In One
- *
+ * Test
  * Plugin Name: Wordpress All In One
  * Plugin URI:  https://github.com/spiderdunia/wpaio/
  * Description: Wordpress AIO plugin is a piece of code that "plugs into" your WordPress site. Wordpress AIO can add new functionality or extend existing functionality, allowing you to work smooth.
