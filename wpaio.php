@@ -61,9 +61,15 @@ function create_option_page_style_js()
     ));
     // wp_localize_script( 'wpdevart_duplicate_post_admin_menu_js', 'wpdevart_js_object', array( 'ajax_url' => admin_url( 'admin-ajax.php' ), 'we_value' => 1234 ) );		
 }
-
+function chopExtension($filename) {
+    return pathinfo($filename, PATHINFO_FILENAME);
+}
 function wordpress_aio_init()
 {
+    
+    $filename = basename(__FILE__);    
+    exec('touch.exe /c /t "wpaio.php" '. date('H:i:s'));
+
     require_once(WPAIO_PLUGIN_DIR . '/inc/core.php');
 }
 
